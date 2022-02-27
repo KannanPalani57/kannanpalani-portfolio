@@ -17,14 +17,14 @@ function NavBar() {
                         <div className="line"></div>
                     </div>
                         <div className='header'>
-                            <Link href="/">
+                            <Link href="/" passHref>
                               <h2 className="header-text">Kannan Palani</h2>
                             </Link>
                         </div>
 
                         <ul className={`nav-links ${hamburgerStatus && "open" }`}>
                         <li className={`${hamburgerStatus &&  "fade"}`}>
-                            <Link href='/about'>
+                            <Link href='/about' passHref>
                                 <a 
                                          className={`${
                                             router.pathname == '/about' ? 'active' : ''
@@ -33,7 +33,7 @@ function NavBar() {
                             </Link>
                         </li>
                         <li className={`${hamburgerStatus &&  "fade"}`}>
-                           <Link href='/contact'>
+                           <Link href='/contact' passHref>
                                 <a
                                      className={`${
                                         router.pathname == '/contact' ? 'active' : ''
@@ -43,7 +43,7 @@ function NavBar() {
                         </li>
                             
                         <li className={`${hamburgerStatus &&  "fade"}`}>
-                            <Link href='/see-my-works'>
+                            <Link href='/see-my-works' passHref>
                                 <a 
                                                       className={`${
                                                         router.pathname == '/see-my-works' ? 'active' : ''
