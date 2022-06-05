@@ -1,0 +1,32 @@
+.articleHeader {
+  max-width: 800px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.article {
+  margin: 5% 0;
+}
+
+.articleBody {
+  max-width: 800px;
+  margin-right: 20%;
+  margin-left: 20%;
+}
+
+.articleHeader h1 {
+  font-size: 2em;
+  color: #111111;
+  font-weight: bold;
+  margin: 0.5em 0;
+}
+
+/* 272727 */
+
+.articleBody p {
+  color: #272727;
+  font-size: 1.4rem;
+  word-spacing: 0.2em;
+  line-height: 1.2em;
+  margin: 1em 0;
+}
